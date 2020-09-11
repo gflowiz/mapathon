@@ -9,7 +9,13 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 **- Le sujet** : il vous est proposé d’explorer l’évolution spatio-temporelle du transport aérien en France de 1999 à 2020. 
 
-**- L'objectif principal** : raconter une histoire (illustrée) en exploitant les trois dimensions suivantes des données décrivant le transport aérien français : 
+**- L'objectif principal** : raconter une histoire (illustrée) en exploitant les données fournies. 
+
+## Les données
+
+### Présentation 
+
+Les données décrivent le transport aérien selon trois dimensions qu'il est impératif d'exploiter. 
 
 **- 1) la thématique** : transport aérien de personnes (flux de passagers) et/ou de marchandises (fret aérien + poste) et/ou les mouvements d'avions (aux aéroports).
 
@@ -17,19 +23,20 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 **- 3) la temporalité** : les données sont soit mensuelles et disponibles sur 10 ans depuis 2010, soit annuelles et disponibles pour 1999, 2004, 2009, 2014 et 2019.
 
-L’analyse est réalisée / réalisable à l’échelle nationale métropolitaine, au niveau de la ville, en implantation ponctuelle, entre 1999 et 2019.
+L’analyse est donc réalisée / réalisable à l’échelle nationale métropolitaine, au niveau de la ville, en implantation ponctuelle, entre 1999 et 2019.
 
-## Les données
+### Fichiers disponibles
 
 Les fichiers sources des données ont été retravaillés (au final 3 fichiers peuvent être à utiliser):
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
-- un **fichier statistique de liens pondérés / trafic / flux ** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
-- un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large_clean.csv_ ou _Eurostats_long_clean.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large.
+- un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large_clean.csv_ ou _Eurostats_long_clean.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large ;
+- un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
 
 REMARQUE : Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
 Des données géographiques complémentaires peuvent être utilisées, à des fins d'habillage.
 
-Les **métadonnées** associées aux fichiers de données sont disponibles dans le répertoire /Metadonnées :
+### Métadonnées
+Les descriptions des données sont disponibles dans le répertoire /Metadonnées :
 - _Dictionnaire_variables.ods_ : décrit l'ensemble des variables statistiques et leurs modalités.
 - _Dictionnaire_termes.odt_ : décrit les principaux termes du transport aérien français (réalisé d'après la DGAC).
 
