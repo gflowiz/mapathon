@@ -14,6 +14,10 @@ L’analyse géographique est réalisée à l’échelle nationale au niveau de 
 
 PRESENTATION DES DONNEES
 
+Les fichiers retravaillés (au final 5 fichiers a garder):
+- fichier villes.csv ou geojon implantation géographique
+- fichier DGAC_flux flux entre ville
+- fichier Eurostats_large_clean.csv ou Eurostats_long_clean.csv données eurstats 2010 2020 sur les fréquentation par ville au format long ou large	
 
 META DONNEES
 
