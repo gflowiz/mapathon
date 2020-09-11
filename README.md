@@ -10,7 +10,7 @@
 
 **Temporalité** : données mensuelles * 10 ans depuis 2010 ou données annuelles en 1999, 2004, 2009, 2014 et 2019.
 
-L’analyse géographique est réalisée à l’échelle nationale au niveau de la ville
+L’analyse géographique est réalisée à l’échelle nationale métropolitaine, au niveau de la ville
 
 PRESENTATION DES DONNEES
 
