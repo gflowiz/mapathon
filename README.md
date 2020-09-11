@@ -37,8 +37,8 @@ Des données géographiques complémentaires peuvent être utilisées, à des fi
 
 ### Métadonnées
 Les descriptions des données sont disponibles dans le répertoire /Metadonnées :
-- _Dictionnaire_variables.ods_ : décrit l'ensemble des variables statistiques et leurs modalités.
-- _Dictionnaire_termes.odt_ : décrit les principaux termes du transport aérien français (réalisé d'après la DGAC).
+- [_Dictionnaire_variables.ods_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_variables.ods) : décrit l'ensemble des variables statistiques et leurs modalités.
+- [_Dictionnaire_termes.odt_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_termes.odt) : décrit les principaux termes du transport aérien français (réalisé d'après la DGAC).
 
 Les **sources des données** proposées sont : 
 - Direction générale de l'aviation civile (2020), _Bulletin statistique : trafic aérien commercial année 2019_, Ministère de la transition écologique et solidaire [MTES](https://www.ecologie.gouv.fr/)
