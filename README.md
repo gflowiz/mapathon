@@ -8,9 +8,14 @@
 
 **-Géographie** : localisation élémentaire de l’aéroport à la ville (les aéroports appartenant à plusieurs villes ont été fusionnés)
 
-**Temporalité** : données mensuelles * 10 ans depuis 2010 ou données annuelles en 1999, 2004, 2009, 2014 et 2019.
+**-Temporalité** : données mensuelles * 10 ans depuis 2010 ou données annuelles en 1999, 2004, 2009, 2014 et 2019.
 
-L’analyse géographique est réalisée à l’échelle nationale métropolitaine, au niveau de la ville
+L’analyse géographique est réalisée à l’échelle nationale métropolitaine, au niveau de la ville. Les sources utilisées sont la DGAC et Eurostats.
+
+# Prix
+- Trois prix principaux classés du premier au troisième prix.
+- Le prix spécial du jury pour une réalisation qui correspond particulièrement bien au thème du colloque auquel est associé le Mapathon.
+- Le prix de l'OSGEO-FR, pour la meilleure utilisation d'outils libres.
 
 PRESENTATION DES DONNEES
 
