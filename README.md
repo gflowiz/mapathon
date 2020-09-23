@@ -9,6 +9,13 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 **- Le sujet** : il vous est proposé d’explorer l’évolution spatio-temporelle du transport aérien en France de 1999 à 2020. 
 
+
+## Les Prix
+- Trois prix principaux, classés du premier au troisième prix.
+- Un prix spécial du jury pour une réalisation qui correspond particulièrement bien aux thèmes du colloque auquel est associé le Mapathon.
+- Un prix spécial du jury pour le _design cartographique.
+- Un prix de l'OSGEO-FR, pour la meilleure utilisation d'outils libres.
+
 ## Les données
 
 ### Présentation 
@@ -68,14 +75,14 @@ Fichier _DGAC_flux.csv_ :
 |Pax_reg	|Nombre total de passagers d'un vol régulier|
 |Pax_Non_reg	|Nombre total de passagers d'un vol non régulier|
 |Fret_Total	|Nombre total de marchandises d'un vol non régulier|
-|--------|--------|
+
 
 
 Fichier _Eurostats_long.csv_ :
 |VARIABLE	| DESCRIPTIF |
 |--------|--------|
-|tra_meas| type de comptage|
-||Modalités|
+|tra_meas| Type de comptage|
+||Modalités :|
 ||PAS_CRD : Nombre de passagers transportés|
 ||PAS_TRS : Nombre de passagers en transit direct|
 ||PAS_TRF : Nombre de passagers transférés|
@@ -92,8 +99,8 @@ Fichier _Eurostats_large.csv_ :
 |VARIABLE	| DESCRIPTIF |
 |--------|--------|
 |ville| Nom de la ville
-|tra_meas| type de comptage|
-||Modalités|
+|tra_meas| Type de comptage|
+||Modalités :|
 ||PAS_CRD : Nombre de passagers transportés|
 ||PAS_TRS : Nombre de passagers en transit direct|
 ||PAS_TRF : Nombre de passagers transférés|
@@ -112,11 +119,7 @@ Les **sources des données** proposées sont :
 - Direction générale de l'aviation civile (2020), _Bulletin statistique : trafic aérien commercial année 2019_, Ministère de la transition écologique et solidaire [MTES](https://www.ecologie.gouv.fr/)
 - Eurostats (2020), [_Transport database_](https://ec.europa.eu/eurostat/web/transport/data/database)
 
-## Les Prix
-- Trois prix principaux, classés du premier au troisième prix.
-- Un prix spécial du jury pour une réalisation qui correspond particulièrement bien aux thèmes du colloque auquel est associé le Mapathon.
-- Un prix spécial du jury pour le _design cartographique.
-- Un prix de l'OSGEO-FR, pour la meilleure utilisation d'outils libres.
+
 
 === </br>
 Cet événement est réalisé avec le support des associations [Toulouse Dataviz](http://toulouse-dataviz.fr), [OSGeo.Fr](https://www.osgeo.org/local-chapters/osgeo-fr/) et [AFIGÉO](http://www.afigeo.asso.fr/).</br> 
