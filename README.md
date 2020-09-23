@@ -9,8 +9,6 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 **- Le sujet** : il vous est proposé d’explorer l’évolution spatio-temporelle du transport aérien en France de 1999 à 2020. 
 
-**- L'objectif principal** : raconter une histoire (illustrée) en exploitant les données fournies. 
-
 ## Les données
 
 ### Présentation 
@@ -29,7 +27,7 @@ L’analyse est donc réalisée / réalisable à l’échelle nationale métropo
 
 Les fichiers sources des données ont été retravaillés (au final 3 fichiers peuvent être à utiliser):
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
-- un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large_clean.csv_ ou _Eurostats_long_clean.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large ;
+- un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
 - un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
 
 REMARQUE : Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
@@ -39,6 +37,76 @@ Des données géographiques complémentaires peuvent être utilisées, à des fi
 Les descriptions des données sont disponibles dans le répertoire /Metadonnées :
 - [_Dictionnaire_variables.ods_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_variables.ods) : décrit l'ensemble des variables statistiques et leurs modalités.
 - [_Dictionnaire_termes.odt_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_termes.odt) : décrit les principaux termes du transport aérien français (réalisé d'après la DGAC).
+
+
+Fichier _villes.csv_ :
+|VARIABLE	| DESCRIPTIF |
+|--------|--------|
+|ville| Nom de la ville
+|lat| Latitude
+|lng| Longitude
+
+Fichier _villes.csv_ :
+|VARIABLE	| DESCRIPTIF |
+|--------|--------|
+|ville| Nom de la ville
+
+Fichier _DGAC_flux.csv_ :
+
+|VARIABLE	| DESCRIPTIF |
+|--------|--------|
+|id	|Numéro d'identifiant|
+|Annee	|Année de mesure|
+|Origine	|Ville d'origine de la liaison|
+|Destination	|Ville de destination de la liaison|
+|lng_origine	|Longitude du lieu d'origine de la liaison|
+|lat_origine	|Latitude du lieu d'origine de la liaison|
+|lng_destination	|Longitude du lieu de destination de la liaison|
+|lat_destination	|Latitude du lieu de destination de la liaison|
+|Dessertes	|Nombre total de dessertes|
+|Pax_total	|Nombre total de passagers locaux + en transit des vols commerciaux (sans double compte)|
+|Pax_reg	|Nombre total de passagers d'un vol régulier|
+|Pax_Non_reg	|Nombre total de passagers d'un vol non régulier|
+|Fret_Total	|Nombre total de marchandises d'un vol non régulier|
+|--------|--------|
+
+
+Fichier _Eurostats_long.csv_ :
+|VARIABLE	| DESCRIPTIF |
+|--------|--------|
+|tra_meas| type de comptage|
+||Modalités|
+||PAS_CRD : Nombre de passagers transportés|
+||PAS_TRS : Nombre de passagers en transit direct|
+||PAS_TRF : Nombre de passagers transférés|
+||FRM_LD_NLD : Quantité de marchandises chargée et déchargée : fret et courrier|
+||ACM : Mouvements d’avions  commerciaux et non commerciaux (passagers, fret et courrier)|
+||CACM : Mouvements d’avions commerciaux (passagers, fret et courrier)|
+|ville | ville concernée |
+|date | date au format anneeMmois|
+|n| valeur du comptage|
+|annee | Année|
+|mois |Mois|
+
+Fichier _Eurostats_large.csv_ :
+|VARIABLE	| DESCRIPTIF |
+|--------|--------|
+|ville| Nom de la ville
+|tra_meas| type de comptage|
+||Modalités|
+||PAS_CRD : Nombre de passagers transportés|
+||PAS_TRS : Nombre de passagers en transit direct|
+||PAS_TRF : Nombre de passagers transférés|
+||FRM_LD_NLD : Quantité de marchandises chargée et déchargée : fret et courrier|
+||ACM : Mouvements d’avions  commerciaux et non commerciaux (passagers, fret et courrier)|
+||CACM : Mouvements d’avions commerciaux (passagers, fret et courrier)|
+|2010M01| Valeur du comptage en Janvier 2010
+|2010M02| Valeur du compage en Février 2010
+|...|...|
+|2019M10| Valeur du compage en Octobre 2019
+
+
+
 
 Les **sources des données** proposées sont : 
 - Direction générale de l'aviation civile (2020), _Bulletin statistique : trafic aérien commercial année 2019_, Ministère de la transition écologique et solidaire [MTES](https://www.ecologie.gouv.fr/)
