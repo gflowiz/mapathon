@@ -1,7 +1,8 @@
-# mapathon
+![](https://i.imgur.com/1gKUrgY.png)
+
 Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.org/resource/page/id/14) organisé du 7 au 18 octobre 2020, dans le cadre du colloque international [Tous (im)mobiles, tous cartographes?](https://cartomob.sciencesconf.org/)
  
-![](https://i.imgur.com/1gKUrgY.png)
+
 
 ## Le sujet
 
