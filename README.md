@@ -8,14 +8,16 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 **- Le thème** : Le transport aérien en France métropolitaine (1999-2020)
 
-**- Le sujet** : il vous est proposé d’explorer l’évolution spatio-temporelle du transport aérien en France de 1999 à 2020. 
+**- Le sujet** : il vous est proposé d’explorer l’évolution spatio-temporelle du transport aérien en France métropolitaine de 1999 à 2020, pour en raconter une histoire illustrée de cartes ou cartographique. 
+
+[Voir le règlement](https://cartomob.sciencesconf.org/resource/page/id/12)
 
 
 ## Les Prix
 - Trois prix principaux, classés du premier au troisième prix.
 - Un prix spécial du jury pour une réalisation qui correspond particulièrement bien aux thèmes du colloque auquel est associé le Mapathon.
-- Un prix spécial du jury pour le _design cartographique.
-- Un prix de l'OSGEO-FR, pour la meilleure utilisation d'outils libres.
+- Un prix spécial du jury pour le _design cartographique_.
+- Un prix spécial de l'OSGEO-FR, pour la meilleure utilisation d'outils libres.
 
 ## Les données
 
@@ -23,13 +25,13 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 Les données décrivent le transport aérien français, selon trois dimensions qu'il est impératif d'exploiter. 
 
-**- 1) la thématique** : transport aérien de personnes (flux de passagers) et/ou de marchandises (fret aérien + courrier) et/ou les mouvements d'avions (aux aéroports).
+**(1) la thématique** : transport aérien de personnes (flux de passagers) et/ou de marchandises (fret aérien + courrier) et/ou les mouvements d'avions (aux aéroports).
 
-**- 2) la géographie** : la localisation élémentaire est la ville aéroportuaire (les flux sont donc inter-villes). Seules les villes présentant un aéroport en activité depuis 2010 sont concernées. Les villes telles que Paris et Lyon notamment, qui présentent plusieurs aéroports, ont vu leurs aéroports fusionnés. L'échelon d'analyse est donc la ville (et non l'aéroport).
+**(2) la géographie** : la localisation élémentaire est la ville aéroportuaire (les flux sont donc inter-villes). Seules les villes présentant un aéroport en activité depuis 2010 sont concernées. Les villes telles que Paris et Lyon notamment, qui présentent plusieurs aéroports, ont vu leurs aéroports fusionnés. L'échelon d'analyse est donc la ville (et non l'aéroport).
 
-**- 3) la temporalité** : les données sont soit mensuelles et disponibles sur 10 ans depuis 2010, soit annuelles et disponibles pour 1999, 2004, 2009, 2014 et 2019.
+**(3) la temporalité** : les données sont soit mensuelles et disponibles sur 10 ans depuis 2010, soit annuelles et disponibles pour 1999, 2004, 2009, 2014 et 2019.
 
-L’analyse est donc réalisée / réalisable pour la France métropolitaine, à l'échelle de la ville, en implantation ponctuelle, entre 1999 et 2019, avec une temporalité mensuelle (2010-2019) ou annuelle (1999,2004, 2009, 2014 et 2019).
+L’analyse cartographique est donc réalisée / réalisable pour le transport de personnes et/ou le fret et courrier et/ou les mouvements d'avion en France métropolitaine, à l'échelle de la ville, en implantation ponctuelle, entre 1999 et 2019, avec une temporalité mensuelle (2010-2019) ou annuelle (1999,2004, 2009, 2014 et 2019).
 
 ### Fichiers disponibles
 
