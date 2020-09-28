@@ -23,7 +23,7 @@ Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.o
 
 ### Présentation 
 
-Les données décrivent le transport aérien français, selon trois dimensions qu'il est impératif d'exploiter. 
+Les données décrivent le transport aérien français, selon les trois dimensions suivantes. 
 
 **(1) la thématique** : transport aérien de personnes (flux de passagers) et/ou de marchandises (fret aérien + courrier) et/ou les mouvements d'avions (aux aéroports).
 
@@ -32,6 +32,8 @@ Les données décrivent le transport aérien français, selon trois dimensions q
 **(3) la temporalité** : les données sont soit mensuelles et disponibles sur 10 ans depuis 2010, soit annuelles et disponibles pour 1999, 2004, 2009, 2014 et 2019.
 
 L’analyse cartographique est donc réalisée / réalisable pour le transport de personnes et/ou le fret et courrier et/ou les mouvements d'avion en France métropolitaine, à l'échelle de la ville, en implantation ponctuelle, entre 1999 et 2019, avec une temporalité mensuelle (2010-2019) ou annuelle (1999,2004, 2009, 2014 et 2019).
+
+REMARQUE : Le jury sera sensible à l'exploitation de la composante spatiale des données fournies. 
 
 ### Fichiers disponibles
 
