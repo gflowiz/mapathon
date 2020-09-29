@@ -42,7 +42,9 @@ Les fichiers sources des données ont été retravaillés : au final 3 fichiers 
 - un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
 - un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
 
-REMARQUE : Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
+REMARQUES : 
+- Les fichiers csvt contiennent les types des variables pour un import facilité dans qgis
+- Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
 Des données géographiques complémentaires peuvent être utilisées, à des fins d'habillage.
 
 ### Métadonnées
