@@ -33,17 +33,18 @@ Les données décrivent le transport aérien français, selon les trois dimensio
 
 L’analyse cartographique est donc réalisée / réalisable pour le transport de personnes et/ou le fret et courrier et/ou les mouvements d'avion en France métropolitaine, à l'échelle de la ville, en implantation ponctuelle, entre 1999 et 2019, avec une temporalité mensuelle (2010-2019) ou annuelle (1999,2004, 2009, 2014 et 2019).
 
-REMARQUE : Le jury sera sensible à l'exploitation de la composante spatiale des données fournies. 
+REMARQUE : 
+- Le jury sera sensible à l'exploitation de la composante spatiale des données fournies. 
 
 ### Fichiers disponibles
 
-Les fichiers sources des données ont été retravaillés : au final 3 fichiers .csv peuvent être utilisés (les .csvt sont pour les utilisateurs de QGIS) :
+Les fichiers sources des données ont été retravaillés : au final 3 fichiers peuvent être utilisés :
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
 - un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
 - un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
 
 REMARQUES : 
-- Les fichiers csvt contiennent les types des variables pour un import facilité dans qgis
+- Les fichiers .csvt contiennent les types des variables pour un import facilité dans qgis
 - Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
 Des données géographiques complémentaires peuvent être utilisées, à des fins d'habillage.
 
