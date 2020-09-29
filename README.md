@@ -37,7 +37,7 @@ REMARQUE : Le jury sera sensible à l'exploitation de la composante spatiale des
 
 ### Fichiers disponibles
 
-Les fichiers sources des données ont été retravaillés (au final 3 fichiers peuvent être utilisés) :
+Les fichiers sources des données ont été retravaillés : au final 3 fichiers .csv peuvent être utilisés (les .csvt sont pour les utilisateurs de QGIS) :
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
 - un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
 - un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
