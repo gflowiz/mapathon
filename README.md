@@ -1,8 +1,9 @@
 ![](https://i.imgur.com/1gKUrgY.png)
 
+Ce mapathon a pour objet de fabriquer une oeuvre visuelle originale (une seule par personne ou par équipe candidate) prenant la forme d'un document présenté sur un support statique, numérique et/ou interactif web pour raconter une histoire à partir de jeux de données fournies.
+
 Ce dépot décrit les données du [**mapathon**](https://cartomob.sciencesconf.org/resource/page/id/14) organisé du 7 au 18 octobre 2020, dans le cadre du colloque international [Tous (im)mobiles, tous cartographes?](https://cartomob.sciencesconf.org/)
  
-
 
 ## Le sujet
 
