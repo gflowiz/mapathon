@@ -121,7 +121,9 @@ Les **sources des données** proposées sont :
 
 
 === </br>
-Cet événement est réalisé avec le support des associations [Toulouse Dataviz](http://toulouse-dataviz.fr), [OSGeo.Fr](https://www.osgeo.org/local-chapters/osgeo-fr/) et [AFIGÉO](http://www.afigeo.asso.fr/).</br> 
-![](https://i.imgur.com/NZvq8Zl.png) </br>    
-Contact : cartomob@sciencesconf.org
+Cet événement est réalisé par le Projet [_geographic flow visualisation (gflowiz)_](https://geoflowiz.hypotheses.org/) avec le support des associations [Toulouse Dataviz](http://toulouse-dataviz.fr), [OSGeo.Fr](https://www.osgeo.org/local-chapters/osgeo-fr/) et [AFIGÉO](http://www.afigeo.asso.fr/).</br> 
+
+**Pilotage du mapathon** : Laurent Jégou (Univ. Toulouse 2), Etienne Côme (Univ. Gustave Eiffel), Françoise Bahoken (Univ. Gustave Eiffel) et Alain Ottenheimer (DataSens, Toulouse dataviz) </br>
+**Contact** : cartomob@sciencesconf.org </br>
+![](https://i.imgur.com/YxMj20W.png) </br>   
 
