@@ -42,12 +42,12 @@ REMARQUE :
 Les fichiers sources des données ont été retravaillés : au final 3 fichiers peuvent être utilisés :
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
 - un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
-- un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires ; 
+- un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires (plus de 5000 passagers / an) ; 
 
 REMARQUES : 
-- Les fichiers .csvt contiennent les types des variables pour un import facilité dans qgis
+- Les fichiers .csvt contiennent les types des variables pour un import facilité dans QGIS.
 - Les données statistiques autres que celles qui précèdent ne sont pas autorisées.
-Des données géographiques complémentaires peuvent être utilisées, à des fins d'habillage.
+Des données géographiques complémentaires peuvent être utilisées, à des fins d'habillage (fond de carte, décoration, aide au repérage...).
 
 ### Métadonnées
 Les descriptions des données sont disponibles dans le répertoire /Metadonnées :
@@ -61,11 +61,6 @@ Fichier _villes.csv_ :
 |ville| Nom de la ville
 |lat| Latitude
 |lng| Longitude
-
-Fichier _villes.csv_ :
-|VARIABLE	| DESCRIPTIF |
-|--------|--------|
-|ville| Nom de la ville
 
 Fichier _DGAC_flux.csv_ :
 
@@ -84,8 +79,6 @@ Fichier _DGAC_flux.csv_ :
 |Pax_reg	|Nombre total de passagers d'un vol régulier|
 |Pax_Non_reg	|Nombre total de passagers d'un vol non régulier|
 |Fret_Total	|Nombre total de marchandises d'un vol non régulier|
-
-
 
 Fichier _Eurostats_long.csv_ :
 |VARIABLE	| DESCRIPTIF |
@@ -122,12 +115,9 @@ Fichier _Eurostats_large.csv_ :
 |2019M10| Valeur du compage en Octobre 2019
 
 
-
-
 Les **sources des données** proposées sont : 
 - Direction générale de l'aviation civile (2020), _Bulletin statistique : trafic aérien commercial année 2019_, Ministère de la transition écologique et solidaire [MTES](https://www.ecologie.gouv.fr/)
 - Eurostats (2020), [_Transport database_](https://ec.europa.eu/eurostat/web/transport/data/database)
-
 
 
 === </br>
