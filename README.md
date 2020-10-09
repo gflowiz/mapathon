@@ -54,6 +54,7 @@ Les descriptions des données sont disponibles dans le répertoire /Metadonnées
 - [_Dictionnaire_variables.ods_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_variables.ods) : décrit l'ensemble des variables statistiques et leurs modalités.
 - [_Dictionnaire_termes.odt_](https://github.com/gflowiz/mapathon/blob/master/metadonnees/Dictionnaire_termes.odt) : décrit les principaux termes du transport aérien français (réalisé d'après la DGAC).
 
+#### Dictionnaire des variables
 
 Fichier _villes.csv_ :
 |VARIABLE	| DESCRIPTIF |
@@ -114,6 +115,22 @@ Fichier _Eurostats_large.csv_ :
 |...|...|
 |2019M10| Valeur du compage en Octobre 2019
 
+#### Dictionnaire des termes
+(d'après DGAC, 2020)
+
+_Classement par ordre alphabétique_
+ 
+_ Desserte : liaison assurée par un vol (un même vol peut assurer plusieurs dessertes lorsqu’il est multi-escales) <br/>
+_ Mouvement : atterrissage ou décollage d'un avion sur un aéroport <br/>
+_ Pax (ou Passager) : passagers des vols commerciaux uniquement <br/>
+_ Passagers en transit :  pour un aérodrome et sur un même numéro de vol, passagers <br/>
+originaires d’un aérodrome (date antérieure) et à destination d’un aérodrome (date ultérieure) <br/>
+_ Passagers locaux : passagers au départ ou à l’arrivée d'un aérodrome, hors passagers de transit <br/>
+_ Passagers réguliers (Pax_reg) : passagers d’un vol régulier, tel que défini par le règlement (CE) n°1008/2008 <br/>
+_ Passagers totaux  (Pax_total) : passagers locaux + passagers en transit, sans double compte <br/>
+_ Vol : parcours composé de une ou de plusieurs étapes consécutives réalisées à une date donnée <br/>
+_ Vol commercial :  vol réalisé dans le cadre d'un transport public uniquement.<br/>
+
 
 Les **sources des données** proposées sont : 
 - Direction générale de l'aviation civile (2020), _Bulletin statistique : trafic aérien commercial année 2019_, Ministère de la transition écologique et solidaire [MTES](https://www.ecologie.gouv.fr/)
@@ -121,7 +138,7 @@ Les **sources des données** proposées sont :
 
 
 === </br>
-Cet événement est réalisé par le Projet [_geographic flow visualisation (gflowiz)_](https://geoflowiz.hypotheses.org/) avec le support des associations [Toulouse Dataviz](http://toulouse-dataviz.fr), [OSGeo.Fr](https://www.osgeo.org/local-chapters/osgeo-fr/) et [AFIGÉO](http://www.afigeo.asso.fr/).</br> 
+Cet événement est réalisé par le Projet [_geographic flow visualisation (gflowiz)_](https://geoflowiz.hypotheses.org/) avec le partenariat de la revue [M@ppemonde](https://journals.openedition.org/mappemonde/index.html) et le support des associations [Toulouse Dataviz](http://toulouse-dataviz.fr), [OSGeo.Fr](https://www.osgeo.org/local-chapters/osgeo-fr/) et [AFIGÉO](http://www.afigeo.asso.fr/).</br> 
 
 **Pilotage du mapathon** : Laurent Jégou (Univ. Toulouse 2), Etienne Côme (Univ. Gustave Eiffel), Françoise Bahoken (Univ. Gustave Eiffel) et Alain Ottenheimer (DataSens, Toulouse dataviz) </br>
 **Contact** : cartomob@sciencesconf.org </br>
