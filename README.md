@@ -42,7 +42,7 @@ REMARQUE :
 Les fichiers sources des données ont été retravaillés : au final 3 fichiers peuvent être utilisés :
 - un **fichier géographique pour les noeuds / lieux** </br> _villes.csv_ ou _villes.geojson_ : renseigne l'implantation géographique (coordonnées XY) ;
 - un **fichier statistique pour les noeuds / lieux** </br> _Eurostats_large.csv_ ou Fichier _Eurostats_long.csv_ : données eurostats 2010-2020 sur les fréquentations (nombre de passagers, de marchandises (fret+courrier) et de mouvements d'avion) par ville et par mois, au format long ou large (les deux fichiers contiennent donc les même données);
-- un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises entre villes aéroportuaires (plus de 5000 passagers / an) ; 
+- un **fichier statistique de liens pondérés / trafic / flux** </br> Flux _DGAC_flux.csv_ : trafic de passagers et de marchandises des liaisons entre villes aéroportuaires (plus de 5000 passagers / an) ; Ce ne sont pas des flux orientés d'une ville vers une autre, mais des totaux sur les liasons entre ces deux villes, dans les deux sens cumulés.
 
 REMARQUES : 
 - Les fichiers .csvt contiennent les types des variables pour un import facilité dans QGIS.
